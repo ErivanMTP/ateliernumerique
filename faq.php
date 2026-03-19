@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ - Atelier Numérique</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        // Fonction pour gérer l'accordéon
+        function toggleAnswer(id) {
+            const answer = document.getElementById(id);
+            answer.classList.toggle("hidden");
+        }
+    </script>
+</head>
+<body class="bg-gray-100 min-h-screen font-sans">
+
+    <!-- Navbar style VK -->
+    <header class="bg-white border-b border-gray-300 w-full p-3 shadow-sm">
+        <div class="max-w-6xl mx-auto flex items-center justify-between">
+            <h1 class="text-blue-600 font-bold text-lg">Atelier Numérique</h1>
+            <nav class="space-x-4 text-gray-700 font-medium text-sm">
+                <a href="index.php" class="hover:text-blue-600 transition">Accueil</a>
+                <a href="#" class="hover:text-blue-600 transition">Profil</a>
+                <a href="#" class="hover:text-blue-600 transition">Aide</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="max-w-5xl mx-auto p-6">
+
+        <!-- Présentation de l'Atelier -->
+        <section class="bg-white p-5 rounded-lg shadow mb-6">
+            <h2 class="text-2xl font-bold text-gray-800 mb-3">Bienvenue à l'Atelier Numérique</h2>
+            <p class="text-gray-700">
+                L'Atelier Numérique est un espace en ligne conçu pour vous aider à maîtriser les outils numériques, les démarches administratives et les services collaboratifs. Vous pouvez apprendre à créer un CV, utiliser des logiciels bureautiques et créatifs, accéder à des plateformes comme Yoojo ou AlloVoisin, et découvrir des conseils pratiques pour vos démarches.
+            </p>
+        </section>
+
+        <!-- FAQ -->
+        <h2 class="text-2xl font-bold text-gray-800 mb-4">FAQ - Questions fréquentes</h2>
+
+        <div class="space-y-4">
+
+            <!-- Question 1 -->
+            <div class="bg-white p-4 rounded-lg shadow hover:shadow-md transition cursor-pointer" onclick="toggleAnswer('answer1')">
+                <h3 class="text-lg font-semibold text-gray-800">Quels services propose l'Atelier Numérique ?</h3>
+                <p id="answer1" class="text-gray-700 mt-2 hidden">
+                    L'Atelier Numérique propose des tutoriels pour créer un CV et une lettre de motivation avec l'IA, l'utilisation de logiciels bureautiques et créatifs (Office, Canva, Adobe), l'accès à des plateformes collaboratives comme Yoojo et AlloVoisin, et des conseils pour effectuer vos démarches administratives.
+                </p>
+            </div>
+
+            <!-- Question 2 -->
+            <div class="bg-white p-4 rounded-lg shadow hover:shadow-md transition cursor-pointer" onclick="toggleAnswer('answer2')">
+                <h3 class="text-lg font-semibold text-gray-800">Comment utiliser les services de l'atelier ?</h3>
+                <p id="answer2" class="text-gray-700 mt-2 hidden">
+                    Vous pouvez naviguer dans les différentes sections de l'atelier, cliquer sur les outils ou plateformes qui vous intéressent, suivre les tutoriels proposés et consulter les liens officiels pour chaque service.
+                </p>
+            </div>
+
+            <!-- Question 3 -->
+            <div class="bg-white p-4 rounded-lg shadow hover:shadow-md transition cursor-pointer" onclick="toggleAnswer('answer3')">
+                <h3 class="text-lg font-semibold text-gray-800">L'atelier est-il gratuit ?</h3>
+                <p id="answer3" class="text-gray-700 mt-2 hidden">
+                    Oui, l'Atelier Numérique est entièrement gratuit. Certains outils tiers comme Office ou Canva peuvent proposer des versions payantes, mais l'accès aux tutoriels et guides de l'atelier ne nécessite aucun paiement.
+                </p>
+            </div>
+
+            <!-- Question 4 -->
+            <div class="bg-white p-4 rounded-lg shadow hover:shadow-md transition cursor-pointer" onclick="toggleAnswer('answer4')">
+                <h3 class="text-lg font-semibold text-gray-800">Puis-je poser des questions si je rencontre un problème ?</h3>
+                <p id="answer4" class="text-gray-700 mt-2 hidden">
+                    Oui, vous pouvez utiliser la section “Aide” ou contacter l'administrateur de l'atelier via les liens fournis dans le menu pour obtenir des conseils personnalisés.
+                </p>
+            </div>
+
+            <!-- Question 5 -->
+            <div class="bg-white p-4 rounded-lg shadow hover:shadow-md transition cursor-pointer" onclick="toggleAnswer('answer5')">
+                <h3 class="text-lg font-semibold text-gray-800">Quels outils numériques puis-je apprendre ici ?</h3>
+                <p id="answer5" class="text-gray-700 mt-2 hidden">
+                    Vous pouvez apprendre à utiliser des logiciels bureautiques comme Microsoft Office, des outils créatifs comme Canva et Adobe, ainsi que des plateformes collaboratives et des IA pour améliorer votre CV ou vos documents.
+                </p>
+            </div>
+
+        </div>
+
+    </main>
+
+</body>
+</html>

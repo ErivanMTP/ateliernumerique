@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Démarches Administratives</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 min-h-screen font-sans">
+
+    <!-- Navbar style VK -->
+    <header class="bg-white border-b border-gray-300 w-full p-3 shadow-sm">
+        <div class="max-w-6xl mx-auto flex items-center justify-between">
+            <h1 class="text-blue-600 font-bold text-lg">Atelier Numérique</h1>
+            <nav class="space-x-4 text-gray-700 font-medium text-sm">
+                <a href="index.php" class="hover:text-blue-600 transition">Accueil</a>
+                <a href="#" class="hover:text-blue-600 transition">Profil</a>
+                <a href="#" class="hover:text-blue-600 transition">Aide</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="max-w-5xl mx-auto p-6">
+
+        <h2 class="text-2xl font-bold text-gray-800 mb-6">Démarches Administratives en Ligne</h2>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+
+            <!-- France Travail -->
+            <div class="bg-white p-5 rounded-lg shadow hover:shadow-md transition">
+                <div class="flex items-center mb-3">
+                    <img src="https://www.francetravail.fr/favicon.ico" alt="Logo France Travail" class="h-10 w-10 mr-3">
+                    <h3 class="text-xl font-semibold text-gray-800">France Travail</h3>
+                </div>
+                <p class="text-gray-700 mb-3">
+                    France Travail est le service public dédié à l’emploi. Vous pouvez vous inscrire comme demandeur d’emploi, suivre vos candidatures, accéder à des offres et bénéficier d’un accompagnement personnalisé.
+                </p>
+                <div class="flex flex-col space-y-2 mb-3">
+                    <a href="https://www.francetravail.fr/" target="_blank" class="text-blue-600 hover:underline font-medium">Visiter le site officiel</a>
+                    <a href="https://www.francetravail.fr/inscription" target="_blank" class="text-blue-600 hover:underline font-medium">S’inscrire comme demandeur d’emploi</a>
+                    <a href="https://www.francetravail.fr/offres" target="_blank" class="text-blue-600 hover:underline font-medium">Consulter les offres</a>
+                </div>
+            </div>
+
+            <!-- Assurance Maladie -->
+            <div class="bg-white p-5 rounded-lg shadow hover:shadow-md transition">
+                <div class="flex items-center mb-3">
+                    <img src="https://assure.ameli.fr/favicon.ico" alt="Logo Assurance Maladie" class="h-10 w-10 mr-3">
+                    <h3 class="text-xl font-semibold text-gray-800">Assurance Maladie</h3>
+                </div>
+                <p class="text-gray-700 mb-3">
+                    L’Assurance Maladie permet de gérer vos droits à la santé, déclarer un arrêt de travail, demander une carte Vitale ou suivre vos remboursements en ligne.
+                </p>
+                <div class="flex flex-col space-y-2 mb-3">
+                    <a href="https://assure.ameli.fr/" target="_blank" class="text-blue-600 hover:underline font-medium">Visiter le site officiel</a>
+                    <a href="https://assure.ameli.fr/mon-compte" target="_blank" class="text-blue-600 hover:underline font-medium">Accéder à mon compte</a>
+                    <a href="https://assure.ameli.fr/assure/droits-demarches" target="_blank" class="text-blue-600 hover:underline font-medium">Consulter les démarches</a>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Section conseils -->
+        <section class="bg-white p-5 rounded-lg shadow mt-6">
+            <h3 class="text-xl font-semibold text-gray-800 mb-3">Conseils pour vos démarches administratives</h3>
+            <ul class="list-disc list-inside text-gray-700">
+                <li>Créez un compte personnel sécurisé pour chaque service.</li>
+                <li>Vérifiez les documents nécessaires avant de commencer votre démarche.</li>
+                <li>Utilisez uniquement les sites officiels pour éviter les arnaques.</li>
+                <li>Notez vos identifiants et mots de passe dans un endroit sûr.</li>
+            </ul>
+        </section>
+
+    </main>
+
+</body>
+</html>

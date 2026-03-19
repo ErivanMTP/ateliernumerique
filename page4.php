@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV et Lettre de Motivation avec l'IA</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 min-h-screen font-sans">
+
+    <!-- Navbar style VK -->
+    <header class="bg-white border-b border-gray-300 w-full p-3 shadow-sm">
+        <div class="max-w-6xl mx-auto flex items-center justify-between">
+            <h1 class="text-blue-600 font-bold text-lg">Atelier Numérique</h1>
+            <nav class="space-x-4 text-gray-700 font-medium text-sm">
+                <a href="index.php" class="hover:text-blue-600 transition">Accueil</a>
+                <a href="#" class="hover:text-blue-600 transition">Profil</a>
+                <a href="#" class="hover:text-blue-600 transition">Aide</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="max-w-5xl mx-auto p-6">
+
+        <h2 class="text-2xl font-bold text-gray-800 mb-4">Créer votre CV et lettre de motivation avec l'IA</h2>
+
+        <p class="text-gray-700 mb-6">
+            Vous pouvez utiliser l'intelligence artificielle pour rédiger rapidement un CV ou une lettre de motivation professionnelle. 
+            Voici comment procéder et quelles IA utiliser pour obtenir des résultats efficaces.
+        </p>
+
+        <!-- Section: Comment faire un CV -->
+        <section class="bg-white p-5 rounded-lg shadow mb-6">
+            <h3 class="text-xl font-semibold text-gray-800 mb-3">Comment créer un CV avec l'IA</h3>
+            <ul class="list-disc list-inside text-gray-700 mb-3">
+                <li>Choisissez un modèle de CV simple et clair.</li>
+                <li>Rassemblez vos expériences, formations et compétences.</li>
+                <li>Rédigez un prompt clair pour l'IA :</li>
+            </ul>
+            <div class="bg-gray-100 p-3 rounded mb-3 font-mono text-sm text-gray-800">
+                "Génère un CV professionnel pour un(e) étudiant(e) en informatique, avec compétences en Python, projets scolaires et stage récent."
+            </div>
+            <p class="text-gray-700">Vous pouvez ajuster le prompt selon votre secteur et votre niveau d'expérience.</p>
+        </section>
+
+        <!-- Section: Comment faire une lettre de motivation -->
+        <section class="bg-white p-5 rounded-lg shadow mb-6">
+            <h3 class="text-xl font-semibold text-gray-800 mb-3">Comment créer une lettre de motivation avec l'IA</h3>
+            <ul class="list-disc list-inside text-gray-700 mb-3">
+                <li>Décrivez le poste et l'entreprise.</li>
+                <li>Indiquez vos compétences clés et expériences pertinentes.</li>
+                <li>Exemple de prompt :</li>
+            </ul>
+            <div class="bg-gray-100 p-3 rounded mb-3 font-mono text-sm text-gray-800">
+                "Écris une lettre de motivation convaincante pour un poste de développeur junior dans une start-up tech, mettant en avant mes projets en Python et mes stages en entreprise."
+            </div>
+            <p class="text-gray-700">L'IA peut générer plusieurs versions pour que vous puissiez choisir et personnaliser.</p>
+        </section>
+
+        <!-- Section: Liens vers IA utiles -->
+        <section class="bg-white p-5 rounded-lg shadow mb-6">
+            <h3 class="text-xl font-semibold text-gray-800 mb-3">IA recommandées pour CV et lettres</h3>
+            <ul class="space-y-2 text-gray-700">
+                <li><a href="https://chat.openai.com" target="_blank" class="text-blue-600 hover:underline">ChatGPT – Génération de CV et lettres</a></li>
+                <li><a href="https://www.canva.com/resumes/templates/" target="_blank" class="text-blue-600 hover:underline">Canva – Modèles de CV et lettres</a></li>
+                <li><a href="https://www.resume.com/" target="_blank" class="text-blue-600 hover:underline">Resume.com – Création automatique de CV</a></li>
+                <li><a href="https://www.jobscan.co/cover-letter-builder" target="_blank" class="text-blue-600 hover:underline">Jobscan – Lettre de motivation optimisée</a></li>
+            </ul>
+        </section>
+
+        <!-- Section: Astuces -->
+        <section class="bg-white p-5 rounded-lg shadow mb-6">
+            <h3 class="text-xl font-semibold text-gray-800 mb-3">Astuces pour un CV efficace</h3>
+            <ul class="list-disc list-inside text-gray-700">
+                <li>Restez clair et concis : maximum 1 page pour un étudiant ou débutant.</li>
+                <li>Adaptez votre CV et lettre au poste visé.</li>
+                <li>Utilisez des mots-clés présents dans l'offre d'emploi.</li>
+                <li>Relisez toujours pour éviter les fautes.</li>
+            </ul>
+        </section>
+
+    </main>
+
+</body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services Collaboratifs</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 min-h-screen font-sans">
+
+    <!-- Navbar style VK -->
+    <header class="bg-white border-b border-gray-300 w-full p-3 shadow-sm">
+        <div class="max-w-6xl mx-auto flex items-center justify-between">
+            <h1 class="text-blue-600 font-bold text-lg">Atelier Numérique</h1>
+            <nav class="space-x-4 text-gray-700 font-medium text-sm">
+                <a href="index.php" class="hover:text-blue-600 transition">Accueil</a>
+                <a href="#" class="hover:text-blue-600 transition">Profil</a>
+                <a href="#" class="hover:text-blue-600 transition">Aide</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="max-w-5xl mx-auto p-6">
+
+        <h2 class="text-2xl font-bold text-gray-800 mb-6">Services Collaboratifs : Yoojo et AlloVoisin</h2>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+
+            <!-- Yoojo -->
+            <div class="bg-white p-5 rounded-lg shadow hover:shadow-md transition">
+                <div class="flex items-center mb-3">
+                    <img src="https://www.yoojo.com/favicon.ico" alt="Logo Yoojo" class="h-10 w-10 mr-3">
+                    <h3 class="text-xl font-semibold text-gray-800">Yoojo</h3>
+                </div>
+                <p class="text-gray-700 mb-3">
+                    Yoojo est une plateforme qui facilite l'entraide entre voisins. Vous pouvez proposer ou demander de l'aide pour divers services du quotidien : bricolage, jardinage, déménagement, etc. L'objectif est de créer une communauté locale active et solidaire.
+                </p>
+                <div class="flex flex-col space-y-2 mb-3">
+                    <a href="https://www.yoojo.com/" target="_blank" class="text-blue-600 hover:underline font-medium">Visiter le site officiel</a>
+                    <a href="https://yoojo.fr/devenez-prestataire" target="_blank" class="text-blue-600 hover:underline font-medium">Comment proposer un service</a>
+                    <a href="https://yoojo.fr/" target="_blank" class="text-blue-600 hover:underline font-medium">Comment trouver un service</a>
+                </div>
+            </div>
+
+            <!-- AlloVoisin -->
+            <div class="bg-white p-5 rounded-lg shadow hover:shadow-md transition">
+                <div class="flex items-center mb-3">
+                    <img src="https://static.allovoisins.com/images/allovoisins_logo_footer_no_baseline.png" alt="Logo AlloVoisin" class="h-10 w-22 mr-3">
+                    <h3 class="text-xl font-semibold text-gray-800">AlloVoisin</h3>
+                </div>
+                <p class="text-gray-700 mb-3">
+                    AlloVoisin est une plateforme de partage de services entre particuliers. Vous pouvez louer des outils, proposer des services ou trouver de l'aide dans votre quartier. C'est un moyen pratique de gagner de l'argent et d’échanger des compétences localement.
+                </p>
+                <div class="flex flex-col space-y-2 mb-3">
+                    <a href="https://www.allovoisin.fr/" target="_blank" class="text-blue-600 hover:underline font-medium">Visiter le site officiel</a>
+                    <a href="https://www.allovoisin.fr/proposer-un-service" target="_blank" class="text-blue-600 hover:underline font-medium">Comment proposer un service</a>
+                    <a href="" target="_blank" class="text-blue-600 hover:underline font-medium">Comment trouver un service</a>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Section astuces ou conseils -->
+        <section class="bg-white p-5 rounded-lg shadow mt-6">
+            <h3 class="text-xl font-semibold text-gray-800 mb-3">Conseils pour utiliser ces plateformes</h3>
+            <ul class="list-disc list-inside text-gray-700">
+                <li>Créez un profil complet avec photo et description claire.</li>
+                <li>Lisez les avis et vérifiez les évaluations avant d’accepter un service.</li>
+                <li>Communiquez toujours via la plateforme pour plus de sécurité.</li>
+                <li>Proposez vos services pour créer une bonne réputation.</li>
+            </ul>
+        </section>
+
+    </main>
+
+</body>
+</html>

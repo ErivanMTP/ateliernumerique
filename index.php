@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atelier Numérique</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-50 min-h-screen font-sans text-gray-800">
+
+    <!-- Header -->
+    <header class="bg-white border-b border-gray-200">
+        <div class="max-w-7xl mx-auto flex justify-between items-center px-6 py-5">
+            <h1 class="text-2xl font-bold">
+                Atelier Numérique
+            </h1>
+
+            <nav class="space-x-8 text-lg text-gray-600">
+                <a href="#" class="hover:text-black">Contact</a>
+                <a href="faq.php" class="hover:text-black">FAQ</a>
+                <a href="faq.php" class="hover:text-black">Aide</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Contenu -->
+    <main class="max-w-7xl mx-auto px-6 py-16">
+
+        <p class="text-xl mb-6">
+            Sélectionnez votre besoin :
+        </p>
+
+      
+
+        <!-- Barre de recherche style VK -->
+<div class="flex  mb-12">
+    <div class="w-full max-w-2xl relative">
+        
+        <input 
+            type="text" 
+            id="searchInput"
+            placeholder="Rechercher..."
+            class="w-full pl-12 pr-4 py-4 text-lg bg-gray-100 border border-transparent rounded-full focus:outline-none focus:bg-white focus:border-blue-500 focus:ring-2 focus:ring-blue-200 transition"
+        >
+
+        <!-- Icône -->
+        <svg xmlns="http://www.w3.org/2000/svg" 
+            class="h-6 w-6 text-gray-400 absolute left-4 top-1/2 -translate-y-1/2"
+            fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" 
+                d="M21 21l-4.35-4.35M16 10a6 6 0 11-12 0 6 6 0 0112 0z" />
+        </svg>
+
+    </div>
+</div>
+
+
+
+        <!-- Cartes -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-8">
+
+            <a href="page1.php" data-title="bureautique word excel document" class="card bg-white border border-gray-200 rounded-lg p-6 hover:bg-gray-50 shadow-sm">
+                <div class="flex items-center space-x-5">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-gray-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M9 12h6m-6 4h6M7 4h6l4 4v12a2 2 0 01-2 2H7a2 2 0 01-2-2V6a2 2 0 012-2z" />
+                    </svg>
+                    <span class="text-lg font-semibold">
+                        Bureautique
+                    </span>
+                </div>
+            </a>
+
+            <a href="page2.php" data-title="plateformes services internet caf ameli pole emploi" class="card bg-white border border-gray-200 rounded-lg p-6 hover:bg-gray-50 shadow-sm">
+                <div class="flex items-center space-x-5">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-gray-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M3.6 9h16.8M3.6 15h16.8M12 3a15 15 0 010 18M12 3a15 15 0 000 18" />
+                    </svg>
+                    <span class="text-lg font-semibold">
+                        Plateformes de services
+                    </span>
+                </div>
+            </a>
+
+            <a href="page3.php" data-title="demarches administratives papier carte identite permis" class="card bg-white border border-gray-200 rounded-lg p-6 hover:bg-gray-50 shadow-sm">
+                <div class="flex items-center space-x-5">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-gray-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M9 5h6M9 3h6a2 2 0 012 2v1H7V5a2 2 0 012-2zm-2 4h10a2 2 0 012 2v10a2 2 0 01-2 2H7a2 2 0 01-2-2V9a2 2 0 012-2z" />
+                    </svg>
+                    <span class="text-lg font-semibold">
+                        Démarches administratives
+                    </span>
+                </div>
+            </a>
+
+            <a href="page4.php" data-title="cv lettre motivation emploi travail candidature" class="card bg-white border border-gray-200 rounded-lg p-6 hover:bg-gray-50 shadow-sm">
+                <div class="flex items-center space-x-5">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-gray-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M9.75 3a3.75 3.75 0 00-3.75 3.75v.75a3 3 0 00-3 3v1.5a3 3 0 003 3v.75A3.75 3.75 0 009.75 21h.75a3 3 0 003-3 3 3 0 003 3h.75A3.75 3 0 0021 17.25v-.75a3 3 0 003-3V12a3 3 0 00-3-3v-.75A3.75 3 0 0017.25 3h-.75a3 3 0 00-3 3 3 3 0 00-3-3h-.75z" />
+                    </svg>
+                    <span class="text-lg font-semibold">
+                        CV et lettre de motivation
+                    </span>
+                </div>
+            </a>
+
+        </div>
+
+    </main>
+
+    <!-- Script recherche -->
+    <script>
+        const searchInput = document.getElementById('searchInput');
+        const cards = document.querySelectorAll('.card');
+
+        searchInput.addEventListener('keyup', function() {
+            const value = this.value.toLowerCase();
+
+            cards.forEach(card => {
+                const title = card.getAttribute('data-title');
+
+                if (title.includes(value)) {
+                    card.style.display = "block";
+                } else {
+                    card.style.display = "none";
+                }
+            });
+        });
+    </script>
+
+</body>
+</html>
