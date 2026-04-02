@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ - Atelier Numérique</title>
+
+    <!-- Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Preline -->
+    <script src="https://unpkg.com/preline@latest/dist/preline.js"></script>
+</head>
+
+<body class="bg-gray-100 min-h-screen font-sans">
+
+<!-- Navbar -->
+<header class="bg-white border-b border-gray-300 w-full p-3 shadow-sm">
+    <div class="max-w-6xl mx-auto flex items-center justify-between">
+        <h1 class="text-blue-600 font-bold text-lg">Atelier Numérique</h1>
+        <nav class="space-x-4 text-gray-700 font-medium text-sm">
+            <a href="index.html" class="hover:text-blue-600 transition">Accueil</a>
+            <a href="#" class="hover:text-blue-600 transition">Profil</a>
+            <a href="#" class="hover:text-blue-600 transition">Aide</a>
+        </nav>
+    </div>
+</header>
+
+<main class="max-w-5xl mx-auto p-6">
+
+<!-- Présentation -->
+<section class="bg-white p-5 rounded-lg shadow mb-6">
+    <h2 class="text-2xl font-bold text-gray-800 mb-3">
+        Bienvenue à l'Atelier Numérique
+    </h2>
+    <p class="text-gray-700">
+        L'Atelier Numérique est un espace en ligne conçu pour vous aider à maîtriser les outils numériques, les démarches administratives et les services collaboratifs.
+    </p>
+</section>
+
+<!-- FAQ PRELINE -->
+<div class="max-w-3xl mx-auto">
+
+    <h2 class="text-2xl font-bold text-gray-800 mb-6 text-center">
+        FAQ - Questions fréquentes
+    </h2>
+
+    <div class="hs-accordion-group space-y-3">
+
+        <!-- Question 1 -->
+        <div class="hs-accordion bg-white rounded-lg shadow p-4" id="faq-1">
+            <button class="hs-accordion-toggle w-full text-left font-semibold text-gray-800 flex justify-between items-center">
+                Quels services propose l'Atelier Numérique ?
+                <span class="hs-accordion-active:hidden">+</span>
+                <span class="hs-accordion-active:block hidden">−</span>
+            </button>
+            <div class="hs-accordion-content hidden mt-3 text-gray-700">
+                Tutoriels CV, lettres de motivation avec IA, logiciels bureautiques (Office), outils créatifs (Canva, Adobe) et plateformes comme Yoojo ou AlloVoisin.
+            </div>
+        </div>
+
+        <!-- Question 2 -->
+        <div class="hs-accordion bg-white rounded-lg shadow p-4" id="faq-2">
+            <button class="hs-accordion-toggle w-full text-left font-semibold text-gray-800 flex justify-between items-center">
+                Comment utiliser les services ?
+                <span class="hs-accordion-active:hidden">+</span>
+                <span class="hs-accordion-active:block hidden">−</span>
+            </button>
+            <div class="hs-accordion-content hidden mt-3 text-gray-700">
+                Naviguez dans les sections, cliquez sur les outils et suivez les tutoriels proposés.
+            </div>
+        </div>
+
+        <!-- Question 3 -->
+        <div class="hs-accordion bg-white rounded-lg shadow p-4" id="faq-3">
+            <button class="hs-accordion-toggle w-full text-left font-semibold text-gray-800 flex justify-between items-center">
+                Est-ce gratuit ?
+                <span class="hs-accordion-active:hidden">+</span>
+                <span class="hs-accordion-active:block hidden">−</span>
+            </button>
+            <div class="hs-accordion-content hidden mt-3 text-gray-700">
+                Oui, l'atelier est gratuit. Certains outils externes peuvent être payants.
+            </div>
+        </div>
+
+        <!-- Question 4 -->
+        <div class="hs-accordion bg-white rounded-lg shadow p-4" id="faq-4">
+            <button class="hs-accordion-toggle w-full text-left font-semibold text-gray-800 flex justify-between items-center">
+                Puis-je poser des questions ?
+                <span class="hs-accordion-active:hidden">+</span>
+                <span class="hs-accordion-active:block hidden">−</span>
+            </button>
+            <div class="hs-accordion-content hidden mt-3 text-gray-700">
+                Oui, via la section Aide ou les contacts disponibles.
+            </div>
+        </div>
+
+        <!-- Question 5 -->
+        <div class="hs-accordion bg-white rounded-lg shadow p-4" id="faq-5">
+            <button class="hs-accordion-toggle w-full text-left font-semibold text-gray-800 flex justify-between items-center">
+                Quels outils vais-je apprendre ?
+                <span class="hs-accordion-active:hidden">+</span>
+                <span class="hs-accordion-active:block hidden">−</span>
+            </button>
+            <div class="hs-accordion-content hidden mt-3 text-gray-700">
+                Microsoft Office, Canva, Adobe et des outils d'IA pour améliorer vos documents.
+            </div>
+        </div>
+
+    </div>
+</div>
+
+</main>
+
+</body>
+</html>
